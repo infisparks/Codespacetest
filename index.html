@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Simple Landing Page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Header -->
+  <header class="bg-white shadow-md">
+    <div class="max-w-6xl mx-auto px-4 py-5 flex justify-between items-center">
+      <h1 class="text-2xl font-bold">MyBrand</h1>
+      <nav>
+        <ul class="flex space-x-6 text-sm font-medium">
+          <li><a href="#features" class="hover:text-blue-600">Features</a></li>
+          <li><a href="#about" class="hover:text-blue-600">About</a></li>
+          <li><a href="#contact" class="hover:text-blue-600">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="flex flex-col items-center justify-center text-center py-20 px-6 max-w-3xl mx-auto">
+    <h2 class="text-4xl font-extrabold mb-4">Welcome to MyBrand</h2>
+    <p class="text-lg mb-8 text-gray-600">We help you build amazing projects quickly and efficiently.</p>
+    <a href="#signup" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-md transition">
+      Get Started
+    </a>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="max-w-6xl mx-auto px-6 py-12 grid gap-8 grid-cols-1 md:grid-cols-3">
+    <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+      <h3 class="text-xl font-semibold mb-2">Fast Setup</h3>
+      <p class="text-gray-600">Get started with minimal configuration and instant results.</p>
+    </div>
+    <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+      <h3 class="text-xl font-semibold mb-2">Customizable</h3>
+      <p class="text-gray-600">Easily tweak components to fit your brand and style.</p>
+    </div>
+    <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+      <h3 class="text-xl font-semibold mb-2">Responsive Design</h3>
+      <p class="text-gray-600">Looks great on all devices, from phones to desktops.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-100 py-6 mt-20 text-center text-gray-500 text-sm">
+    &copy; 2025 MyBrand. All rights reserved.
+  </footer>
+
+</body>
+</html>
